@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6d0236/v1
+canonical_location: https://kanripo.org/bkk/KR6d0236/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 三教出興頌註
+  identifiers:
+    alt_id:
+    - X57n0960
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X57/X57n0960.xml
+    old_id: X57n0960
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0236_000.yaml, hash: 'sha256:65a96695d99b2c2dd665b65ec1841b4b3d3e0944c5b06a73619411e9dd8d3ab1'}
+  - {seq: 1, filename: KR6d0236_001.yaml, hash: 'sha256:ae32d8b9eef75dde817fe1a4085f4ec537f2ef1f3971f58c5af0017bab1d867a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0236_001.markers.yaml, hash: 'sha256:2372133bfb3aa690c6b6103fdb9e3e350b4649b39045947051a21eea6dacb3bb'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0236_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 4348
+  label: 三教出興頌
+  type: juan
+  level: 1
+hash: sha256:8aa0e432d7e8802a471a30ca7e851cb0afca16ecb213879ef5181c67d2c536a4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

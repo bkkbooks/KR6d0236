@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6d0236/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 三教出興頌註
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X57/X57n0960.xml
+    old_id: X57n0960
+hash: sha256:65a96695d99b2c2dd665b65ec1841b4b3d3e0944c5b06a73619411e9dd8d3ab1

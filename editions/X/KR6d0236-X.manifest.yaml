@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6d0236/X/v1
+canonical_location: https://kanripo.org/bkk/KR6d0236/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 三教出興頌註
+  identifiers:
+    krp: KR6d0236
+    cbeta: X57n0960
+    cbeta_old_id: X57n0960
+    authorityid: CA0002717
+    json_key: X0960
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X57/X57n0960.xml
+    old_id: X57n0960
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0236_000-X.yaml, hash: 'sha256:65a96695d99b2c2dd665b65ec1841b4b3d3e0944c5b06a73619411e9dd8d3ab1'}
+  - {seq: 1, filename: KR6d0236_001-X.yaml, hash: 'sha256:d09163dc41ddaf5035e8c0e1d22339a214a40afeaf94bf51d5774611763499b9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6d0236_000-X.markers.yaml, hash: 'sha256:2960b10f2503882884d3851fbe68380e42402f94a0552da62ab0f4bc34d6399e'}
+  - {seq: 1, role: markers, filename: assets/KR6d0236_001-X.markers.yaml, hash: 'sha256:4c8a6f411a303264d6f25701936334dd5f36b9b3df6fb659a7bda808796e5eec'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0236_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 4348
+  label: 三教出興頌
+  type: juan
+  level: 1
+hash: sha256:a2b61ee9b4ebebf54cf334b3e630c64ceaad849b505bcb88a475089c1c4aa1a7
