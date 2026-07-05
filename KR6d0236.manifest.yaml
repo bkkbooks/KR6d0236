@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6d0236_000.yaml, hash: 'sha256:65a96695d99b2c2dd665b65ec1841b4b3d3e0944c5b06a73619411e9dd8d3ab1'}
-  - {seq: 1, filename: KR6d0236_001.yaml, hash: 'sha256:ae32d8b9eef75dde817fe1a4085f4ec537f2ef1f3971f58c5af0017bab1d867a'}
+  - {seq: 1, filename: KR6d0236_001.yaml, hash: 'sha256:d09163dc41ddaf5035e8c0e1d22339a214a40afeaf94bf51d5774611763499b9'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6d0236_001.markers.yaml, hash: 'sha256:2372133bfb3aa690c6b6103fdb9e3e350b4649b39045947051a21eea6dacb3bb'}
+  - {seq: 0, role: markers, filename: assets/KR6d0236_000.markers.yaml, hash: 'sha256:eff5488d7e54e7b5f521fa853650229eaac138833def137e00b85520bd833599'}
+  - {seq: 1, role: markers, filename: assets/KR6d0236_001.markers.yaml, hash: 'sha256:ddde09d93d050a907be6a62a6076a4d0262058eec0ac53110836f2b84623ece1'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 三教出興頌
   type: juan
   level: 1
-hash: sha256:8aa0e432d7e8802a471a30ca7e851cb0afca16ecb213879ef5181c67d2c536a4
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:30311496b889aeef36eac163c921688bac8bb21d2e832818bd79856b3d582cf7
